@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.mainBody {
+  display: flex;
+}
+
+.mainBody > div:first-child {
+  width: 50%;
+}
+
+.left-panel {
+  overflow-y: scroll;
+  height: 92vh;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #f7f7f7;
+  /* width: 100%; */
+}
+
+.Controls {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  height: 200px;
+  position: relative;
+  border: solid 1.5px black;
+}
+
+.Controls h2 {
+  text-align: center;
+}
+
+.Controls Button {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.GraphControls {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  /* height: 200px; */
+  border: solid 1.5px black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.right-panel {
+  width: 50%;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.Graph {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  height: 200px;
+  position: relative;
+  border: solid 1.5px rgb(255, 196, 0);
+  background-color: rgb(241, 213, 160);
+  text-align: center;
+}
